@@ -22,7 +22,6 @@
 /* Begin PBXBuildFile section */
 		779870141FB3231C00A6AC08 /* WalinnsTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779870131FB3231C00A6AC08 /* WalinnsTracker.swift */; };
 		77B715FB1FB3210700104B31 /* WalinnsMobileAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77B715F11FB3210700104B31 /* WalinnsMobileAnalytics.framework */; };
-		77B716001FB3210700104B31 /* WalinnsMobileAnalyticsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B715FF1FB3210700104B31 /* WalinnsMobileAnalyticsTests.swift */; };
 		77B716021FB3210700104B31 /* WalinnsMobileAnalytics.h in Headers */ = {isa = PBXBuildFile; fileRef = 77B715F41FB3210700104B31 /* WalinnsMobileAnalytics.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -42,8 +41,6 @@
 		77B715F41FB3210700104B31 /* WalinnsMobileAnalytics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WalinnsMobileAnalytics.h; sourceTree = "<group>"; };
 		77B715F51FB3210700104B31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		77B715FA1FB3210700104B31 /* WalinnsMobileAnalyticsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WalinnsMobileAnalyticsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		77B715FF1FB3210700104B31 /* WalinnsMobileAnalyticsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalinnsMobileAnalyticsTests.swift; sourceTree = "<group>"; };
-		77B716011FB3210700104B31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				77B715F31FB3210700104B31 /* WalinnsMobileAnalytics */,
-				77B715FE1FB3210700104B31 /* WalinnsMobileAnalyticsTests */,
 				77B715F21FB3210700104B31 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,15 +87,6 @@
 				77B715F51FB3210700104B31 /* Info.plist */,
 			);
 			path = WalinnsMobileAnalytics;
-			sourceTree = "<group>";
-		};
-		77B715FE1FB3210700104B31 /* WalinnsMobileAnalyticsTests */ = {
-			isa = PBXGroup;
-			children = (
-				77B715FF1FB3210700104B31 /* WalinnsMobileAnalyticsTests.swift */,
-				77B716011FB3210700104B31 /* Info.plist */,
-			);
-			path = WalinnsMobileAnalyticsTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,7 +231,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77B716001FB3210700104B31 /* WalinnsMobileAnalyticsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,6 +435,7 @@
 				779870181FB323D300A6AC08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		77B715EB1FB3210700104B31 /* Build configuration list for PBXProject "WalinnsMobileAnalytics" */ = {
 			isa = XCConfigurationList;
